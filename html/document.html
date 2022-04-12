@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,26 @@
     <link rel="stylesheet" href="../css/main/main.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
-   <div class="container">
-       <div class="main">
-           
-       </div>
-   </div>
+    <div class="container relative">
+        <div class="bg-image w-screen h-screen absolute opacity-50 -z-10"></div>
+        <div class="main  block z-10 pt-60">
+            <h1 id="app-title" class=" text-center py-20 text-lg font-bold tracking-wider"> Weather App</h1>
+            <div class="location flex ">
+                <h1 class="timezone w-1/2 text-right pr-20 font-bold">timezone</h1>
+                <p class="icon w-1/2 pl-20">icon</p>
+            </div>
+            <div class="temp">
+                <div class="degee-sec flex mx-auto my-20">
+                    <h2 class="degree text-right pr-5 w-1/2 text-lg">1</h2>
+                    <span class="temp-type w-1/2  pl-5 opacity-60 text-lg">F</span>
+                </div>
+                <div class="temp-desc text-center opacity-60 font-medium ">Sunny</div>
+            </div>
+        </div>
+    </div>
     <script src="../js/app.js"></script>
 </body>
+
 </html>
