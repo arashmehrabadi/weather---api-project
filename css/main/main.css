@@ -510,20 +510,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
-.z-0 {
-  z-index: 0;
-}
-
 .-z-10 {
   z-index: -10;
 }
 
-.float-right {
-  float: right;
+.z-10 {
+  z-index: 10;
 }
 
 .mx-auto {
@@ -534,37 +526,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-20 {
   margin-top: 5rem;
   margin-bottom: 5rem;
-}
-
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.my-14 {
-  margin-top: 3.5rem;
-  margin-bottom: 3.5rem;
-}
-
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
 }
 
 .block {
@@ -579,10 +540,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100vh;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-screen {
   width: 100vw;
 }
@@ -591,18 +548,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 50%;
 }
 
-.translate-y-1 {
-  --tw-translate-y: 0.25rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.bg-red-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(127 29 29 / var(--tw-bg-opacity));
-}
-
-.p-14 {
-  padding: 3.5rem;
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .py-20 {
@@ -610,66 +557,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 5rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.pt-60 {
+  padding-top: 15rem;
 }
 
-.py-14 {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
-}
-
-.pb-20 {
-  padding-bottom: 5rem;
-}
-
-.pb-5 {
-  padding-bottom: 1.25rem;
+.pr-20 {
+  padding-right: 5rem;
 }
 
 .pl-20 {
   padding-left: 5rem;
 }
 
-.pr-2 {
-  padding-right: 0.5rem;
-}
-
-.pl-2 {
-  padding-left: 0.5rem;
-}
-
 .pr-5 {
   padding-right: 1.25rem;
 }
 
-.pr-10 {
-  padding-right: 2.5rem;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
-}
-
-.pt-60 {
-  padding-top: 15rem;
-}
-
 .pl-5 {
   padding-left: 1.25rem;
-}
-
-.pr-20 {
-  padding-right: 5rem;
 }
 
 .text-center {
@@ -685,44 +590,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
 .font-bold {
   font-weight: 700;
-}
-
-.font-light {
-  font-weight: 300;
 }
 
 .font-medium {
   font-weight: 500;
 }
 
-.tracking-wide {
-  letter-spacing: 0.025em;
-}
-
 .tracking-wider {
   letter-spacing: 0.05em;
 }
 
-.opacity-0 {
-  opacity: 0;
-}
-
-.opacity-30 {
-  opacity: 0.3;
-}
-
 .opacity-50 {
   opacity: 0.5;
-}
-
-.opacity-80 {
-  opacity: 0.8;
 }
 
 .opacity-60 {
